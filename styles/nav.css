@@ -1,0 +1,46 @@
+/* #my-nav {
+    font-family: Apercu, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16.6px;
+     font-weight: 600;
+    line-height: 21.12px; 
+    background-color: FFFFFF;
+} */
+
+.p-nava {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-contact {
+        visibility: visible;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .navbar-news {
+        visibility: visible;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .navbar-about {
+        visibility: visible;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .navbar-login {
+        visibility: visible;
+    }
+}

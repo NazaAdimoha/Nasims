@@ -1,0 +1,141 @@
+body {
+    font-family: "Apercu",sans-serif;
+    font-family: "-apple-system","BlinkMacSystemFont","Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.color-it {
+    color: #2E8855;
+}
+
+.anchors {
+    text-decoration: none;
+    list-style: none;
+}
+
+.pic {
+    position: relative;
+    text-align: center;
+}
+
+.captions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* @media (max-width: 375px) {
+
+    .caro {
+        display: none;
+        visibility: hidden;
+    }
+} */
+
+
+.logs {
+    background-color: rgb(219,249,234);
+    height: 100%;
+}
+
+.works {
+    background-color: rgb(255,251,246);
+}
+
+.colos {
+    color: rgb(249,174,0);
+    text-decoration: none;
+}
+
+.colos-1 {
+    width: 400px;
+}
+
+#imp {
+    width: 400px;
+    height: 50px;
+}
+
+.foots {
+    background-color: rgb(7,50,27);
+}
+
+@media (max-width: 767px) {
+    .pic {
+        position: relative;
+        text-align: center;
+    }
+    
+    .captions {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+}
+  
+    
+    .write {
+        font-size: 0.8rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        
+    }
+    
+    .write-color {
+        text-decoration: none;
+    }
+    
+ 
+.worked {
+    background-color: rgb(252,252,252);
+    }
+
+@media (max-width:991px){
+    .caro-1 {
+        
+        background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../portfolio/hero.jpg);
+        color: #fff;
+        
+    }
+    .caro-2 {
+        background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../portfolio/hero3.jpg);
+         
+        color: #fff;
+    }
+    .caro-3 {
+        background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../portfolio/image2.jpg);
+         
+        color: #fff;
+    }  
+} 
+
+
+    .caro-2 {
+        background-color: rgb(255,251,246);
+    }
+    .caro-1 {
+        background-color: rgb(255,251,246);
+    }
+    .caro-3 {
+        background-color: rgb(242,252,249);
+    }
+
+@media (max-width:575px) {
+    html,body {
+        overflow-x: hidden;
+        position: relative;
+    }
+}   
+
+@media (min-width:767px) {
+    .meat {
+        width: 100%;
+    }
+}
